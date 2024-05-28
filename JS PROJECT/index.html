@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess My Number</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Guess My Number</h1>
+      <button class="again btn">Again!</button>
+      <div class="number">?</div>
+    </header>
+    <main>
+      <section class="left">
+        <input type="text" class="guess" />
+        <button class="check btn">Check</button>
+      </section>
+      <section class="right">
+        <p class="message">Start Guessing...</p>
+        <p class="lavel-score">Score: <spam class="score">0</spam></p>
+        <p class="lavel-highscore">
+          High Score: <spam class="highscore">0</spam>
+        </p>
+      </section>
+    </main>
+    <footer>
+      <h5><b>Rules of game:</b></h5>
+      <!-- <p class="rule">*xxxxxxxxxxxxxxx</p>
+      <p class="rule">*xxxxxxxxxxxxxxx</p>
+      <p class="rule">*xxxxxxxxxxxxxxx</p> -->
+      <li>You have to guess number between 1 and 20, including 1 and 20.</li>
+      <li>You have total of 6 times to guess the number and win the game.</li>
+      <li>After each try your score is reduced by 20.</li>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
